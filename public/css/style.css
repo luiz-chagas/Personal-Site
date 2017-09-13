@@ -1,10 +1,30 @@
 .portfolio-item img {
-  width: 300px;
-  height: auto;
+  max-width: 100%;
+}
+
+.item-wrap {
+  max-height: 100%;
 }
 
 .relative {
   position: relative;
+}
+
+#portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#portfolio-wrapper > div {
+  max-height: 215px;
+}
+
+.description-box {
+  text-align: left;
+}
+
+.popup-modal {
+  text-align: center;
 }
 
 /*
@@ -58,7 +78,7 @@ body { background: #0f0f0f; overflow-y: hidden; }
   bottom: -15px;
   color: #333;
   content: "\f0a7";
-  left: 48%;
+  left: 49%;
   line-height: 1px;
   padding: 15px 5px;
   position: absolute;
