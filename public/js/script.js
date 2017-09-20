@@ -23,7 +23,7 @@
 /* Initializing jQuery Nice Scroll
 ------------------------------------------------------ */
 
-    $("html").niceScroll({
+    $("body").niceScroll({
       cursorcolor:"#11abb0", // Set cursor color
       cursorwidth: "8", // Sety cursor width
       cursorborder: "" // Set cursor border color, default left none
@@ -207,7 +207,7 @@ function parallax() {
 
     // main directions
       map = new GMaps({
-        el: '#map', lat: 39.079672, lng: -94.5818207, zoom: 13, zoomControl : true, 
+        el: '#map', lat: 39.079672, lng: -94.5818207, zoom: 13, zoomControl : true,
         zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
       });
     // add address markers
