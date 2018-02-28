@@ -1144,6 +1144,7 @@ ul#nav li a:hover {
 
 #testimonials {
    background: #F1F1F1 ;
+   background: white;
    position: relative;
    min-height: 200px;
    width: 100%;
@@ -1157,6 +1158,7 @@ ul#nav li a:hover {
    color: #95a3a3;
    margin: 50px auto;
    width: 420px;
+   position: relative;
 }
 #testimonials h1:hover {
    border-color: #111;
@@ -1167,11 +1169,18 @@ ul#nav li a:hover {
 
 #testimonials .section-title:after {
   background: #F1F1F1;
+  background: white;
   content: "\f0e6";
   color: #95A3A3;
 }
 
+#testimonials .image-container {
+  text-align: center;
+}
 
+#testimonials .image-container img{
+  max-width: 100%;
+}
 
 #testimonials .header-col {
   padding-top: 9px;
