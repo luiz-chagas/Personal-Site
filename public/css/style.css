@@ -75,12 +75,13 @@ body { background: #0f0f0f; overflow-y: auto; }
 
 .section-title:after {
   background: none repeat scroll 0 0 #fff;
-  bottom: -15px;
+  bottom: -10px;
   color: #333;
   content: "\f0a7";
-  left: 49%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   line-height: 1px;
-  padding: 15px 5px;
+  padding: 5px;
   position: absolute;
   font-family: "FontAwesome";
 }
