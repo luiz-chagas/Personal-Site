@@ -1,2 +1,2 @@
 # Personal-Site
-Personal Website Portfolio / Angular 4 
+Personal Website Portfolio
