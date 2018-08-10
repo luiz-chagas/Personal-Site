@@ -1,19 +1,11 @@
 {
   "name": "personal-site",
-  "version": "0.0.0",
+  "description": "Personal web page",
+  "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "dependencies": {
-    "body-parser": "~1.16.0",
-    "cookie-parser": "~1.4.3",
-    "debug": "^2.6.9",
-    "express": "~4.14.1",
-    "hbs": "~4.0.1",
-    "helmet": "^3.13.0",
-    "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.2"
+  "author": {
+    "name": "Luiz Chagas",
+    "url": "https://luizchagas.com/"
   },
   "devDependencies": {
     "eslint": "^5.3.0",
