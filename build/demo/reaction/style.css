@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+}
+
+.fontHack {
+    font-family: 'Special Elite', cursive;
+    position: absolute;
+    left: -100px;
+}
+
+.fontHack2 {
+    font-family: 'Bungee Hairline', cursive;
+    position: absolute;
+    left: -100px;
+}
+
+#myGame {
+    cursor: crosshair;
+}
